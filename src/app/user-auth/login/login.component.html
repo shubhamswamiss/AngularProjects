@@ -1,0 +1,14 @@
+<input type="text" #box (keyup)="getkeyUpEventData(box.value)" placeholder="event keyup">
+<p>{{inputBoxVal}}</p>
+<br>
+<input type="text" #box2 (keydown)="getkeyDownEventData(box2.value)" placeholder="event keydown">
+<p>{{inputBoxVal1}}</p>
+
+<input type="text" #box3 (blur)="getblurEventData(box3.value)" placeholder="event blur">
+<p>{{inputBoxVal2}}</p>
+
+<input type="text" #box4 (input)="getinputEventData(box4.value)" placeholder="event input">
+<p>{{inputBoxVal3}}</p>
+
+<h1 (mouseover)="getmouseoverEventData('over')">Mouseover Event</h1>
+<h1 (mouseleave)="getmouseleaveEventData('leave')">Mouseleave Event</h1>

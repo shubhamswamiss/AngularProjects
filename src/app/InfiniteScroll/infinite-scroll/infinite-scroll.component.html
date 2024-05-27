@@ -1,0 +1,10 @@
+<div class="container" (scroll)="onScroll()">
+    <div *ngFor="let item of items">
+      <!-- Render your data here -->
+      {{ item }}
+    </div>
+    <div *ngIf="loading">
+      Loading more items...
+    </div>
+  </div>
+  

@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "password": "typicode"
+    },
+    {
+      "id": 2,
+      "name": "titleTwo",
+      "password": "typicode"
+    },
+    {
+      "id": 3,
+      "name": "titleThree",
+      "password": "typicode"
+    },
+    {
+      "id": 4,
+      "name": "titleFour",
+      "password": "typicode"
+    },
+    {
+      "name": "shubham swami",
+      "email": "shubhamswamiss333@gamil.com",
+      "password": "123244",
+      "id": 5
+    }
+  ]
+}

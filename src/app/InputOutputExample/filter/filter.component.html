@@ -1,0 +1,23 @@
+<div class="wrapp">
+    <div class="filter-container">
+        <span>Filter: </span>
+    
+        <input type="radio" name="filter" 
+        value="all" [(ngModel)]="saveDataOfFilter"
+         (change)="changeFilterData()"
+       />
+        <span>{{'All Courses ('+all+') '}}</span>
+    
+        <input type="radio" name="filter" 
+         value="free"  [(ngModel)]="saveDataOfFilter" 
+         (change)="changeFilterData()"
+         >
+        <span>{{'Free Courses ('+free+')'}}</span>
+    
+        <input type="radio" name="filter" 
+         value="Premium" [(ngModel)]="saveDataOfFilter"
+          (change)="changeFilterData()"
+       />
+        <span>{{'Premium Courses ('+premium+')'}}</span>
+    </div>
+    </div>

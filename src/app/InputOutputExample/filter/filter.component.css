@@ -1,0 +1,15 @@
+.filter-container{
+    margin: 10px 20px;
+    text-align: center;
+}
+input[type=radio]{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.wrapp{
+    width: 60%;
+    background:rgb(222, 220, 220);
+    /* border: 1px solid black; */
+    margin: auto;
+
+}

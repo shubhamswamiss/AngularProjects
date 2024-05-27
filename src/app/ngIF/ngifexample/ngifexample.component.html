@@ -1,0 +1,13 @@
+<p *ngIf="show else elseBlock">ngifexample works!</p>
+<ng-template #elseBlock>
+    <h1>Else Condition</h1>
+</ng-template>
+
+<p *ngIf="secondVal=='yes' then ifBlock else elseBlock">ngifexample works!</p>
+
+<ng-template #ifBlock>
+    <h1>If Condition</h1>
+</ng-template>
+<ng-template #elseBlock>
+    <h1>Else Condition</h1>
+</ng-template>

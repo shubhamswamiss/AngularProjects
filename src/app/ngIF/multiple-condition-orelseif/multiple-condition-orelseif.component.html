@@ -1,0 +1,15 @@
+<input type="text" #box (input)="chagneValue(box.value)">
+<h1 [ngStyle]="{'color': box.value }">{{color}}</h1>
+
+<ng-template [ngIf]="color === box.value">
+    <h1 [ngStyle]="{'color': box.value }"> {{color}}</h1>
+</ng-template>
+<!-- <ng-template [ngIf]="color ==='green'">
+    <h1 style="color:green">Green Color</h1>
+</ng-template>
+<ng-template [ngIf]="color ==='blue'">
+    <h1 style="color:blue">Blue Color</h1>
+</ng-template> -->
+
+
+

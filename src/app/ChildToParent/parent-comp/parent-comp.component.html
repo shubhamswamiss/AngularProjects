@@ -1,0 +1,8 @@
+<h3>Parent Component</h3>
+<app-child-comp 
+   [message]="parentMessage" 
+   (messageEvent)="receiveMsg($event)"
+   (secondEvent)="receiveMsg2($event)"
+   ></app-child-comp>
+<p>{{msgFromChild}}</p>
+<h3>{{msgFromChild2}}</h3>
